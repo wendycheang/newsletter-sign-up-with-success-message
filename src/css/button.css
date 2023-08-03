@@ -20,7 +20,6 @@
 }
 
 .submit_button:hover{ 
-    border: none;
     background-position:0 100%, 0 0;
 
     -webkit-box-shadow: 0px 16px 41px -16px rgba(255,98,87,1);
