@@ -1,0 +1,19 @@
+h1 {
+    font-size: var(--header-font-size);
+    color: var(--dark-slate-grey);
+}
+
+
+
+@media (min-width: 375px) {
+
+    .App {
+        background-color: var(--charcoal-grey);
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  
+  }

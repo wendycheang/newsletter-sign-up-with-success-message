@@ -1,0 +1,24 @@
+/** Formatting */
+
+.submit_button {
+    border: none;
+    border-radius: 7px;
+    color: var(--white);
+    font-weight: 700;
+    font-size: var(--normal-font-size);
+    padding: 1rem 0;
+
+    background: linear-gradient(to right,rgba(254,82,122,1) , rgba(229,92,37,1), rgba(229,92,37,1) 50%, var(--dark-slate-grey) 50%, var(--dark-slate-grey) 100%);
+    background-size: 200%;
+
+    -webkit-transition : background-position .5s;
+    -moz-transition : background-position .5s;
+    -o-transition : background-position .5s;
+    transition : background-position .5s;
+    background-position: 100% 200%, 0 0;
+}
+
+.submit_button:hover{ 
+    border: none;
+    background-position:0 100%, 0 0;
+}
