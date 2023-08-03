@@ -13,7 +13,7 @@ const SuccessScreen = ({ email, resetScreen }) => {
                 <section className="success_main">
                     <img className="success_icon" src={SuccessIcon} alt="Success Check" />
                     <h1>Thanks for subscribing!</h1>
-                    <p>A confirmation email has been sent to <span className="success_email">{email}</span>. Please open it and click the button inside to confirm your subscription.</p>
+                    <p className="success_message">A confirmation email has been sent to <span className="success_email">{email}</span>. Please open it and click the button inside to confirm your subscription.</p>
                 </section>
                 <Button text="Dismiss message" handleClick={resetScreen} />
             </div>

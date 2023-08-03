@@ -18,17 +18,21 @@
 /* var, defaults & resets*/
 
 :root {
-  --tomato: hsl(4, 100%, 67%);
+  --tomato: rgb(255, 98, 87);
   --tomato-light: rgb(255, 98, 87, .5);
   --dark-slate-grey: hsl(234, 29%, 20%);
   --charcoal-grey: hsl(235, 18%, 26%);
   --grey: hsl(231, 7%, 60%);
   --white: hsl(0, 0%, 100%);
 
+  --gradient: linear-gradient(to right,rgba(254,82,122,1) , rgba(229,92,37,1), rgba(229,92,37,1) 50%, var(--dark-slate-grey) 50%, var(--dark-slate-grey) 100%);
+
   --main-font: 'Roboto', sans-serif;
 
   --normal-font-size: 1rem;
   --header-font-size: 2.5rem;
+  --normal-font-size-two: clamp(.6em, 2vw, 1em);
+  --header-font-size-two: clamp(2em, 6vw, 3em);
   --small-font-size: .75rem;
 }
 
@@ -46,9 +50,6 @@ body  {
 
 button, input {
   font-family: inherit;
-}
-
-button {
   cursor: pointer;
   opacity: .85;
 }

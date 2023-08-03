@@ -8,9 +8,10 @@
     font-size: var(--normal-font-size);
     padding: 1rem 0;
 
-    background: linear-gradient(to right,rgba(254,82,122,1) , rgba(229,92,37,1), rgba(229,92,37,1) 50%, var(--dark-slate-grey) 50%, var(--dark-slate-grey) 100%);
-    background-size: 200%;
 
+    /** animation **/
+    background: var(--gradient);
+    background-size: 200%;
     -webkit-transition : background-position .5s;
     -moz-transition : background-position .5s;
     -o-transition : background-position .5s;
@@ -21,4 +22,8 @@
 .submit_button:hover{ 
     border: none;
     background-position:0 100%, 0 0;
+
+    -webkit-box-shadow: 0px 16px 41px -16px rgba(255,98,87,1);
+    -moz-box-shadow: 0px 16px 41px -16px rgba(255,98,87,1);
+    box-shadow: 0px 16px 41px -16px rgba(255,98,87,1);
 }
