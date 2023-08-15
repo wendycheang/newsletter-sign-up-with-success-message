@@ -20,7 +20,7 @@
 :root {
   --tomato: rgb(255, 98, 87);
   --tomato-light: rgb(255, 98, 87, .5);
-  --dark-slate-grey: hsl(234, 29%, 20%);
+  --dark-slate-grey: hsl(232, 32%, 14%);
   --charcoal-grey: hsl(235, 18%, 26%);
   --grey: hsl(231, 7%, 60%);
   --white: hsl(0, 0%, 100%);
